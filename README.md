@@ -25,10 +25,7 @@ Frontend:
 cd ../frontend
 npm install
 Environment Variables
-Create a .env file in the backend directory with the following:
-
-env
-Copy
+Create a .env file in the backend directory with the following
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 THIRD_PARTY_API_URL=https://s3.amazonaws.com/roxiler.com/product_transaction.json
