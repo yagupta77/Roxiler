@@ -13,26 +13,15 @@ Backend: Node.js, Express.js
 Database: MongoDB 
 Installation
 Clone the repository:
-
-bash
-Copy
-Edit
 git clone https://github.com/your-username/mern-product-transactions.git
 cd mern-product-transactions
 Install dependencies:
 
 Backend:
-
-bash
-Copy
-Edit
 cd backend
 npm install
 Frontend:
 
-bash
-Copy
-Edit
 cd ../frontend
 npm install
 Environment Variables
@@ -40,7 +29,6 @@ Create a .env file in the backend directory with the following:
 
 env
 Copy
-Edit
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 THIRD_PARTY_API_URL=https://s3.amazonaws.com/roxiler.com/product_transaction.json
@@ -49,9 +37,6 @@ Replace your_mongodb_connection_string with your MongoDB connection string.
 Usage
 Start the backend server:
 
-bash
-Copy
-Edit
 cd backend
 npm start
 Initialize the database:
@@ -59,10 +44,6 @@ Initialize the database:
 Send a GET request to /api/initialize to fetch and seed data.
 
 Start the frontend application:
-
-bash
-Copy
-Edit
 cd ../frontend
 npm start
 Access the application at http://localhost:3000.
