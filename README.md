@@ -54,5 +54,3 @@ Pie Chart Data: GET /api/pie-chart?month=March
 Combined Data: GET /api/combined-data?month=March
 License
 This project is licensed under the MIT License.
-
-Feel free to customize this README to better fit your project's specifics.
